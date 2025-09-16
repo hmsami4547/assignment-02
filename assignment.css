@@ -65,3 +65,21 @@ li{
     display: flex;
     align-items: center;
 }
+/* add heading description style and flex */
+.orange{
+    color: #E95A08;
+}
+.introduction{
+    display: flex;
+    
+    margin: 221px 150px 120px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.introduction-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+.flower{
+    width: 100%;
+    width: 100%;
+}
