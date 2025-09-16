@@ -151,5 +151,16 @@ li{
         width: 40%;
         height: 40%;
     }
-    
+    .plants-picture{
+        grid-template-columns: repeat(2, 1fr);
+        /* gap: 2px; */
+        column-gap: 20px;
+        row-gap: 28.5px;
+        justify-content: center;
+        /* width: calc((100% - 10px)/2); */
+    }
+    .each-picture{
+        width: 171px;
+        height: 340px;
+    }
 }
