@@ -65,6 +65,9 @@ li{
     display: flex;
     align-items: center;
 }
+.introduction-heading{
+    font-size: 65px;
+}
 /* add heading description style and flex */
 .orange{
     color: #E95A08;
@@ -79,7 +82,74 @@ li{
 .introduction-description{
     color: rgba(0, 0, 0, 0.5);
 }
+.half-black{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+.half-pixel{
+    font-size: 50px;
+}
 .flower{
     width: 100%;
     width: 100%;
+}
+/* plants part  */
+.plants-text{
+    text-align: center;
+}
+.plants-picture{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.black-22{
+    font-size: 22px;
+    color: #111111;
+    line-height: 150%;
+}
+.each-picture{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.mb-2{
+    margin-bottom: 2px;
+}
+.btn-primary{
+    background-color:#E95A08;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    border: none;
+    height: 50px;
+}
+.bold{
+    font-weight: bolder;
+}
+.pad{
+    padding-bottom: 3px;
+}
+/* add responsive part */
+
+@media  screen and (max-width: 576px) {
+    .none{
+        display: none;
+    }
+    .introduction{
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+    .nav-left, .nav-right{
+        margin: 0px;
+        align-items: center;
+    }
+    .nav-left{
+        width: 40%;
+        height: 40%;
+    }
+    
 }
