@@ -180,7 +180,87 @@ bottom: 50px;
     flex-wrap: nowrap;
    padding-left: 300px;
 }
+/* .bloom{
+    grid-area: bloom;
+}
+.ana{
+    grid-area: ana;
+}
+.zabo{
+    grid-area: zabo;
+}
+.discount{
+    margin: 120px 150px;
+    grid-template-areas: 
+    " bloom zabo"
+    " ana   zabo";
+} */
+.discount{
+    margin: 120px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px ;
+    /* column-gap: 0px; */
+    
+}
+.size{
+    width: 367px;
+    height: 157px;
+}
+.bg-bloom{
+    background-image: url("B12A02-Responsive-Flowers/assets/deal-bloom.png");
+    background-repeat: none;
+     margin-bottom: 20px;
+     margin-top: 50px;
+    
+}
+.bg-ana{
+    background-image: url("B12A02-Responsive-Flowers/assets/deal-ana.png");
+    background-repeat: none;
+}
+.bg-zabo{
+    background-image: url("B12A02-Responsive-Flowers/assets/deal-zabo.png");
+    height: 370px;
+    width: 753px;
+    margin-top: 50px;
+}
+.white{
+   
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.semi-white{
+    text-decoration: underline;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.radius{
+    border-radius: 22px;
+}
+.bold-40{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+.semi-28{
+    text-decoration: underline;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 700;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: center; */
 
+}
 /* add responsive part */
 
 @media  screen and (max-width: 576px) {
@@ -237,7 +317,19 @@ bottom: 50px;
     display: flex;
     flex-wrap: nowrap;
    padding-left: 0px;
-
-
+    }
+    .discount{
+        flex-direction: column;
+        flex: 1;
+        /* width: 100%; */
+        /* height: 100%; */
+    }
+    .bg-ana, .bg-bloom, .bg-zabo{
+        width: 361px;
+        height: 172px;
+        margin: 16px;
+    }
+    .border{
+        border-radius: 14px;
     }
 }
