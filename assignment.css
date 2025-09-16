@@ -133,6 +133,42 @@ li{
 .pad{
     padding-bottom: 3px;
 }
+.certified{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 209px;
+    width: 1140px;
+    height: 597px;
+    
+    
+}
+.certified-left{
+    position: relative;
+}
+
+.sticker{
+position: relative;
+z-index: 1;
+left: 400px;
+top: 50px;
+}
+.sticker-logo{
+    width: 40%;
+    height: 30%;
+}
+.certified-image{
+position: relative;
+bottom: 50px;
+}
+.certified-text{
+    margin-left: 100px;
+}
+.gap-20{
+    margin-bottom: 20px;
+}
+
 /* add responsive part */
 
 @media  screen and (max-width: 576px) {
@@ -162,5 +198,17 @@ li{
     .each-picture{
         width: 171px;
         height: 340px;
+    }
+    .certified{
+        flex-direction: column;
+        width: 361px;
+        height: 648px;
+        margin: auto;
+    }
+    .certified-image-part{
+        width: calc(100% - 5px);
+    }
+    .certified-text{
+        margin-left: 0px;
     }
 }
